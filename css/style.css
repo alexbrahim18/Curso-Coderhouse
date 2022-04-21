@@ -44,6 +44,9 @@ h1{
     height: 150px;
     width: 150px;
 }
+.header__buscador{
+    margin: 50px;
+}
 /**HEADER**/
 
 /**NAVEGADOR**/
@@ -263,13 +266,12 @@ footer{
 .main__nosotros{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/background2.jpg);
     background-size: cover;
 }
 .nosotros__titulo{
     text-align: center;
     font-size: 48px;
-    background-color: #FFD500;
+    background-color:#FF0902;
 }
 .nosotros__video{
     align-self: center;
@@ -279,7 +281,7 @@ footer{
 }
 .nosotros__imagen{
     border-style: inset;
-    border-color: #FFD500;
+    border-color:#C40802;
     border-width: 10px;
     width: 700px;
     height: 500px;
@@ -290,8 +292,35 @@ footer{
     text-align: center;
     margin: 80px;
     padding-top: 100px;
-    color: #FFD500;
+    color: #C40802;
     font-size: xx-large;
+}
+.nosotros__secundario{
+    display: flex;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-color: #C40802;
+}
+.nosotros__izq{
+    display: flex;
+    flex-direction: column;
+    background-color: #C40802;
+    align-self: flex-start;
+   height: 50%;
+
+}
+.nosotros__der{
+    background-color: #FF0902;
+    height:100% ;
+    
+}
+.nosotros__contenido{
+    margin: 30px;
+    box-shadow: 5px 5px 15px 1px #000000;
 }
 /**NOSOTROS**/
 
