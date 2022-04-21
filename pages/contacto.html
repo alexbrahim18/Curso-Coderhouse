@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/favicom.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="body__contacto">
+    <header>
+        <h1 class="header__contacto">Contacto</h1>
+       <!--Barra de navegacion-->
+       <nav class="nav"> 
+        <div class="nav__logo">
+            <img  src="../img/logo.jpg" alt="" class="img__logo" >
+         </div>
+      <ul class="responsive">
+            <li class="responsive__li"><i class="fas fa-bars"></i>
+                <ul class="nav__ul">
+                    <li class="nav__li"><a href="../index.html">Inicio</a></li>
+                    <li class="nav__li"><a href="./nosotros.html">Nosotros</a></li>
+                    <li class="nav__li"><a href="./productos.html">Productos</a></li>
+                    <li class="nav__li"><a href="./contacto.html">Contacto</a></li>
+                    <li class="nav__li"><a href="./ubicacion.html">Ubicacion</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </nav>
+    </header>
+   
+    <!--Formulario-->
+    <main class="main__contacto">
+        
+        <h2 class="contacto__titulo">¿Como Contactarnos?</h2>
+        
+        <div class="contacto__principal">
+                <form class="contacto__formulario">
+                    <label class="formulario__label" for="Nombre y Apellido">Nombre y Apellido</label>
+                    <input class="formulario__input" name="Nombre y Apellido" type="text"/>
+                    <label class="formulario__label" for="Telefono">Telefono</label>        
+                    <input class="formulario__input" name="Telefono" type="number"/>
+                    <label class="formulario__label" for="mail">Email</label>
+                    <input class="formulario__input" name="mail" type="email"/>
+                    <div class="input__radio">
+                        <label class="formulario__label" for="sexo">Hombre</label>
+                        <input class="formulario__input" type="radio" name="sexo" value="hombre"/>
+                        <label class="formulario__label" for="sexo">Mujer</label>
+                        <input class="formulario__input" type="radio" name="sexo" value="mujer"/>
+                    </div>
+                    <label class="formulario__label" for="tyc">¿Acepta recibir correos con nuestras promos?</label>
+                    <input class="formulario__input" type="checkbox" name="tyc" value="si"/>
+                    <label class="formulario__label" for="opiniones">Dejanos tu comentario!</label>
+                    <textarea class="formulario__input" name="opiniones"></textarea>
+                        <div class="botones">
+                        <input class="formulario__boton" type="submit" value="Enviar"/>
+                        <input class="formulario__boton" type="reset" value="Borrar"/>
+                        <input class="formulario__boton" type="button" value="Sin Acciones"/>
+                    </div>
+                </form>
+    
+   
+            <div class="contacto__redes">
+                <ul>
+                    <li class="redes__link"><a href="https://www.facebook.com/" target="_blank" class="link__texto"><img src="../img/redesface.png" alt="">Facebook</a></li>
+                    <li class="redes__link"><a href="https://www.instagram.com/?hl=es-la" target="_blank" class="link__texto"><img src="../img/redesinsta.png" alt=""> Instagram</a></li>
+                    <li class="redes__link"><a href="https://wa.me/+543816304495" target="_blank" class="link__texto"><img src="../img/redeswp.png" alt=""> Whatsapp</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    </main>
+
+     <!--Pier de Pag--> 
+     <footer class="footer">
+        
+        <figure class="logo__footer">    
+            <img src="../img/logo.jpg" class="img__logo">
+        </figure>
+        <figure class="iso1">   
+            <img src="../img/norma.png" class="img__norma">
+        </figure>
+        <p class="normas"> Certificados
+            ISO 14001/OHSAS 18001
+            ISO 9001 EO 1970-Rqta
+            BRC EO 1970-Rqta / BRC EO 249–Nelson</p>
+        <figure class="iso2">
+            <img src="../img/norma.png" class="img__norma">
+        </figure>
+        
+    </footer>
+</body>
+</html>
