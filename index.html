@@ -10,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/312c150d71.js" crossorigin="anonymous"></script>
 </head>
 <body class="body__index">
    <div class="top">
@@ -44,10 +45,39 @@
     <!--Cuerpa-->
     <main class="main__index">
         <section class="principal">
-            <figure class="imagen__principal">
-                <img class="img__principal" src="./img/promo1.png">
-                <img class="img__sec" src="./img/promo2.png">
-            </figure>        
+                <div class="carrusel">
+                    
+                    <div class="carrusel__item" id="itemcarrusel1">
+                        <img class="carrusel__img" src="./img/promo1.png" id="tarjeta1">
+                        <div class="carrusel__botones">
+                            <a href="#itemcarrusel4"><i class="fa-solid fa-arrow-left"></i></a>
+                            <a href="#itemcarrusel2"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="carrusel__item" id="itemcarrusel2">
+                        <img class="carrusel__img" src="./img/promo2.png" id="tarjeta2">
+                        <div class="carrusel__botones">
+                            <a href="#itemcarrusel1"><i class="fa-solid fa-arrow-left"></i></a>
+                            <a href="#itemcarrusel3"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="carrusel__item" id="itemcarrusel3">
+                        <img class="carrusel__img" src="./img/promo3.png" id="tarjeta3">
+                        <div class="carrusel__botones">
+                            <a href="#itemcarrusel2" ><i class="fa-solid fa-arrow-left"></i></a>
+                            <a href="#itemcarrusel4" ><i class="fa-solid fa-arrow-right" ></i></a>
+                        </div>
+                    </div>
+                    <div class="carrusel__item" id="itemcarrusel4">
+                        <img class="carrusel__img" src="./img/promo4.png" id="tarjeta4">
+                        <div class="carrusel__botones">
+                            <a href="#itemcarrusel3"><i class="fa-solid fa-arrow-left"></i></a>
+                            <a href="#itemcarrusel1"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>        
             <div class="articulos">
             <article class="articulo__1">
                 <h2>Ofertas de la semana</h2>

@@ -1,5 +1,5 @@
 *{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
     font-weight:900;
     margin: 0;
     padding: 0%;
@@ -185,16 +185,36 @@ h2{
     width: 366px;
 
 }
-.imagen__principal{
-    display: flex;
-    justify-content: center;
+.carrusel{
+    
+    height: 540px;
+    width: 1040px;
+    align-self: center;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
-.img__principal{
-    height: 400px; 
+.carrusel__item{
+    height: 100%;
+    position: relative;
+
 }
-.img__sec{
-    height: 400px;
+.carrusel__img{
+    height: 100%;
 }
+.carrusel__botones{
+    position: absolute;
+    top: 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 500px;
+    width: 1000px;
+    padding: 20px;
+    
+}
+  
 /**MAIN**/
 
 /**FOOTER**/
@@ -303,6 +323,9 @@ footer{
 .tarjeta__texto{
     text-align: center;
 }
+.tarjeta:hover{
+    transform: scale(1.1,1.1);
+}
 /**PRODUCTOS**/
 
 /**NOSOTROS**/
@@ -345,7 +368,7 @@ footer{
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 30px;
     background-color: #C40802;
 }
 .nosotros__izq{
