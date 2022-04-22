@@ -214,12 +214,14 @@ footer{
 .body__productos{
     display: flex;
     flex-direction: column;
-    background-color: #FFDB8C;
+    background-color: whitesmoke;
 }
 .productos__titulo{
     text-align: center;
     font-size: 48px;
-    background-color: #FFD500;    
+    background-color: #C40802;  
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
 .productos__imagen{
     display: flex;
@@ -227,8 +229,8 @@ footer{
 }
 .productos__imagen__vaca{
     border-style: inset;
-    border-color: #FFD500;
-    border-width: 10px; 
+    border-color: #C40802;
+    border-width: 5px; 
     align-self: center;
     
 }
@@ -248,17 +250,25 @@ footer{
     text-align: center;
 }
 
-
 .productos__tarjetas{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;   
+    margin: 60px;
 }
 .boton{
     align-self: flex-end;
+    background-color: #C40802;
+    width: 200px;
+    height: 40px;
 }
 .tarjeta__imagen{
     align-self: center;
+    width: 200px;
+    height: 200px;
+}
+.tarjeta__texto{
+    text-align: center;
 }
 /**PRODUCTOS**/
 
@@ -328,28 +338,30 @@ footer{
 .main__contacto{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/background2.jpg);
-    background-size: cover;
+    background-color: whitesmoke;
+    margin-top: 20px;
     
 }
 .contacto__titulo{
     text-align: center;
     font-size: 48px;
-    background-color: #FFD500;
+    background-color: #C40802;
     
 }
 .contacto__formulario{
     display: flex;
     flex-direction: column;
     border-style: inset;
-    border-color: #FFD500;
-    border-width: 10px;
-    color: #FFD500;
+    border-color: #C40802;
+    border-width: 5px;
+    color: black;
 }
 .contacto__principal{
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 .formulario__label{
@@ -361,19 +373,14 @@ footer{
 }
 .contacto__redes{
     display: flex;
-    
-    
-
 }
 .redes__link{
     margin: 25px;
-    
-
 }
 .link__texto{
     padding-bottom: 50%;
     text-decoration: none;
-    color: #FFD500;
+    color: black;
 }
 .botones{
     display: flex;
@@ -394,13 +401,12 @@ footer{
 .main__ubicacion{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/background2.jpg);
-    background-size: cover;
+    
 }
 .ubicacion__titulo{
     text-align: center;
     font-size: 48px;
-    background-color: #FFD500;
+    background-color: #C40802;
 }
 .ubicacion__principal{
     display: flex;
@@ -409,19 +415,33 @@ footer{
     text-align: center;
     margin: 10%;
     padding-top: 60px;
-    color: #FFD500;
+    color: black;
     font-size: xx-large;
 }
 .ubicacion__mapa{
     margin: 10%;
+    padding: 0%;
     
 }
 .img__mapa{
     border-style: inset;
-    border-color: #FFD500;
-    border-width: 10px;
+    border-color: #C40802;
 }
 /**UBICACION**/
+/**OFERTAS**/
+.main__oferta{
+    margin-top: 20px;
+}
+.oferta__aviso{
+    border-radius: 15px;
+    background-color: #FFD500;
+    width: 80px;
+    text-align: center;
+    position:absolute
+}
+.oferta__titulo{
+    background-color: #C40802;
+}
 
 
 @media screen and (max-width: 390px) {
