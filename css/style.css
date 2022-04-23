@@ -1,10 +1,11 @@
 *{
-    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     font-weight:900;
     margin: 0;
     padding: 0%;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
     
 
 }
@@ -41,8 +42,8 @@ h1{
     z-index: 2;
 }
 .img__logo{
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
 }
 .header__buscador{
     margin: 50px;
@@ -53,24 +54,27 @@ h1{
 .nav{
     
     background-color: #C40802;
-    height: 38px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    padding: 15px;
     align-items: center;
 }
 
 .menu{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 .nav__li{
-    display: inline-block;
+    
     color: black;
-    padding: 15px;
+    margin-right: 10px;
     font-size: 20px;
+    width: 100%;
+    height: 100%;
 }
 .nav__li:hover{
     background-color: whitesmoke;
