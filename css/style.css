@@ -136,11 +136,13 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 1s;
 }
 .tarjeta__index:hover{
     border-width: 2px;
     border-color: #000000;
     background-color: whitesmoke;
+    transform: scale(1.1,1.1);
     
 }
 .tarjeta__imagen__index{
@@ -148,6 +150,7 @@ h2{
     max-width: 40%;
     width: 140px;
     height: 110px;
+    transform: translate(-150px);
 }
 .articulo__2{
     grid-area: busc;
@@ -165,10 +168,10 @@ h2{
     font-size: 40px;
     padding: 10px;
     color: #C40802;
+    transition: box-shadow 1s;
     
 }
 .art__li:hover{
-    
     box-shadow: 5px 5px 25px 0px #000000;
 }
 .articulo__3{
@@ -178,6 +181,8 @@ h2{
 .combo__1{
     height: 250px;
     width: 360px;
+    transition: box-shadow 1s;
+    transform: scale(1.1,1.1);
 }
 .combo__1:hover{
     box-shadow: 5px 5px 25px 0px #000000;
@@ -195,6 +200,7 @@ h2{
     margin-right: 20%;
     
 }
+
 .carrusel__item{
     height: 100%;
     position: relative;
@@ -298,6 +304,7 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 5px 5px 5px -3px #000000;
+    transition: transform 1s;
 }
 .tarjeta__titulo {
     text-align: center;
