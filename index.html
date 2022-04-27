@@ -22,46 +22,48 @@
 </head>
 <body class="container-fluid">
    <div class="row" id="top">
-       <p class="col-sm-12 col-md-12 col-lg-12">VENTA TELEFONICA: 123456789 / INICIAR SESION / CREAR CUENTA/</p>
+       <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-end">VENTA TELEFONICA: 123456789 / INICIAR SESION / CREAR CUENTA/</p>
    </div>
     <header>
           <div class="row" id="header__index">
-            <div class="col-sm-2 col-md-2 col-lg-2" >
+            <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2 col-xl-2" >
                 <img  src="./img/logo.jpg" alt="" class="img-fluid" id="nav__logo" >
             </div>
-            <h1 class="col-sm-4 col-md-5 col-lg-5">Super Carnes CB</h1>
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <h1 class=" col-xs-5 col-sm-4 col-md-5 col-lg-5">Super Carnes CB</h1>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                 <input class="header__buscador" name="buscador" type="text" placeholder="Buscar en tienda">
             </div>
           </div>
     </header>
     <!--Barra de navegacion-->
-    <div class="col-md-12" id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/ubicacion.html">ubicacion</a>
-                  </li>
-                  
-                </ul>
+    <div class="row">
+      <div class="col-md-12" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark "  >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/ubicacion.html">ubicacion</a>
+                    </li>
+                    
+                  </ul>
+                </div>
               </div>
-            </div>
-          </nav>
+            </nav>
+      </div>
     </div>
     
     <!--Cuerpa-->
@@ -150,7 +152,9 @@
                     </article> 
                     <article class="articulo__3">
                        <h2>Combos Recomendados</h2>
-                       <img class="combo__1" src="./img/combo.jpg">
+                       <figure class="">
+                         <img class="combo__1 img-fluid" src="./img/combo.jpg">
+                       </figure>
                     </article>
                 </div>
                 </div>
@@ -161,7 +165,7 @@
    
     
   <!--Pier de Pag--> 
-  <footer class="row">
+  <footer class="row mt-4">
         
     <figure class="col-sm-3 col-md-2 col-lg-2">    
         <img src="../img/logo.jpg" class="img-fluid" id="logo__footer">

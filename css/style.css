@@ -24,7 +24,10 @@ h1{
     align-items: center;
 }  
 #navbar{
-    background-color: #C40802;
+    background-color: #C40802 !important;
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    background-color: #C40802 !important;
 }
 #nav__logo{
     border-style: inset;
@@ -36,13 +39,14 @@ h1{
 }.header__buscador{
     width: 100%;
 }
+
 /**HEADER**/
 
 /**MAIN**/
 #articulos{
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr auto ;
     grid-template-areas: "ofe ofe ofe"
                          "busc busc comb"
                          ;
@@ -127,12 +131,13 @@ h2{
     height: 250px;
     width: 360px;
     transition: box-shadow 1s;
-    transform: scale(1.1,1.1);
+    
 }
 .combo__1:hover{
     box-shadow: 5px 5px 25px 0px #000000;
     height: 255px;
     width: 366px;
+    
 
 }
 /**FOOTER**/
@@ -203,9 +208,7 @@ footer{
     height: 40px;
     margin: 5px;
 }
-#img__vac{
-    margin-left: 18%;
-}
+
 #cerdo{
     display: flex;
     flex-wrap: wrap;
