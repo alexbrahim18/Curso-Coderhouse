@@ -34,15 +34,17 @@ h1{
     border-color: #C40802;
     border-width: 5px; 
 }
-#carrusel{
-    margin-left: 18%;
-}.header__buscador{
+.header__buscador{
     width: 100%;
 }
 
 /**HEADER**/
 
 /**MAIN**/
+
+
+
+
 #articulos{
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -80,8 +82,8 @@ h2{
     border-bottom: solid grey 1px;
     margin: 15px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: space-between;
     transition: transform 1s;
 }
@@ -93,12 +95,11 @@ h2{
     
 }
 .tarjeta__imagen__index{
-    align-self:flex-end;
     max-width: 40%;
     width: 140px;
-    height: 110px;
-    transform: translate(-150px);
+    height: 150px;
 }
+
 .articulo__2{
     grid-area: busc;
 }
@@ -114,9 +115,12 @@ h2{
     margin: 20px;
     font-size: 40px;
     padding: 10px;
-    color: #C40802;
     transition: box-shadow 1s;
     
+}
+.art__li a{
+    text-decoration: none;
+    color: #C40802;
 }
 .art__li:hover{
     box-shadow: 5px 5px 25px 0px #000000;
@@ -135,10 +139,6 @@ h2{
 }
 .combo__1:hover{
     box-shadow: 5px 5px 25px 0px #000000;
-    height: 255px;
-    width: 366px;
-    
-
 }
 /**FOOTER**/
 footer{
@@ -226,4 +226,15 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+}
+@media (max-width:600px){
+   .top__text{
+       font-size: 15px;
+   }
+   .header__buscador{
+       font-size: 12px;
+   }
+   .art_li a{
+       font-size: 12px;
+   }
 }
