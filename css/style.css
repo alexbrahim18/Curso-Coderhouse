@@ -2,20 +2,20 @@
     font-family: 'Montserrat', sans-serif;;
     margin: 0%;
     padding: 0%;
-    
+    font-size: 13px;
 }
 /**HEADER**/
 #top{
     background-color: #C40802;
     height: 35px;
-    text-align: end;
     width: 100;
 }
+
+
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: px;
     padding: 2vh;
-    font-weight: bolder;
 }  
 #header__index{
     background-color: #FF0902;
@@ -23,12 +23,6 @@ h1{
     justify-content: space-evenly;
     align-items: center;
 }  
-#navbar{
-    background-color: #C40802 !important;
-}
-.navbar navbar-expand-lg navbar-dark bg-dark{
-    background-color: #C40802 !important;
-}
 #nav__logo{
     border-style: inset;
     border-color: #C40802;
@@ -41,9 +35,6 @@ h1{
 /**HEADER**/
 
 /**MAIN**/
-
-
-
 
 #articulos{
     display:grid;
@@ -60,8 +51,8 @@ article{
     margin: 5%;
     color: #C40802;
 }
-h2{
-    font-size: 45px;
+.articulos h2{
+    font-size: 30px;
     text-align: center;
 }
 .articulo__1{
@@ -121,6 +112,7 @@ h2{
 .art__li a{
     text-decoration: none;
     color: #C40802;
+    font-size: 26px;
 }
 .art__li:hover{
     box-shadow: 5px 5px 25px 0px #000000;
@@ -174,7 +166,7 @@ footer{
     background-color: white;
     border-radius: 10px ;
     padding: 20px;
-    margin: 10px;
+    margin: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -183,6 +175,9 @@ footer{
 }
 .tarjeta:hover{
     transform: scale(1.1,1.1);
+}
+.tarjeta__titulo{
+    font-size: 23px;
 }
 .productos__tarjetas{
     display: flex;
@@ -199,7 +194,8 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 20px;
 }
 .boton{
     align-self: flex-end;
@@ -227,14 +223,8 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
 }
-@media (max-width:600px){
-   .top__text{
-       font-size: 15px;
-   }
-   .header__buscador{
-       font-size: 12px;
-   }
-   .art_li a{
-       font-size: 12px;
+@media (min-width:600px){
+   *{
+       font-size: 18px;
    }
 }
