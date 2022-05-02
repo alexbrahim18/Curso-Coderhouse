@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;;
     margin: 0%;
     padding: 0%;
-    font-size: 13px;
+    font-size: 18px;
 }
 /**HEADER**/
 #top{
@@ -14,7 +14,6 @@
 
 h1{
     text-align: center;
-    font-size: px;
     padding: 2vh;
 }  
 #header__index{
@@ -30,6 +29,9 @@ h1{
 }
 .header__buscador{
     width: 100%;
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    background-color: #C40802 !important;
 }
 
 /**HEADER**/
@@ -150,6 +152,9 @@ footer{
     border-color:#C40802;
     border-width: 5px;
 }
+footer p{
+    font-size: 12px;
+}
 /**PRODUCTOS**/
 #productos__titulo{
     text-align: center;
@@ -172,6 +177,7 @@ footer{
     justify-content: space-evenly;
     box-shadow: 5px 5px 5px -3px #000000;
     transition: transform 1s;
+    
 }
 .tarjeta:hover{
     transform: scale(1.1,1.1);
@@ -223,8 +229,6 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
 }
-@media (min-width:600px){
-   *{
-       font-size: 18px;
-   }
+h2 p{
+    font-size: 35px;
 }
