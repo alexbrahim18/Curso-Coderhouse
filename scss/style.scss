@@ -1,9 +1,7 @@
 
 @import "_variables";
 @import "_tarjetas";
-
-
-
+@import "_mainindex";
 
 
 *{
@@ -14,7 +12,7 @@
 }
 /**HEADER**/
 #top{
-    background-color: $colorprimario;
+    background-color: $colorojo2;
     height: 35px;
     width: 100;
 }
@@ -39,107 +37,25 @@ h1{
 }
 }
 /**HEADER**/
-
-/**MAIN**/
-.main__index{
-#articulos{
-    display:grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr auto ;
-    grid-template-areas: "ofe ofe ofe"
-                         "busc busc comb"
-                         ;
-    background-color: #f9f9f9;
-    justify-content: space-between;
-    box-shadow: 5px 5px 15px 1px #000000;
-}
-article{
-    margin: 5%;
-    color: $colorojo2;
-}
-.articulos{ h2{
-    font-size: 30px;
-    text-align: center;
-}
-}
-.articulo__1{
-    grid-area: ofe;
+/**FOOTER**/
+footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color:#FF0902;
     align-items: center;
-}
-.tarjetas{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
-.tarjeta__index{
-    width: 360px;
-    height: 180px;
-    border-top: solid grey 1px;
-    border-bottom: solid grey 1px;
-    margin: 15px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    transition: transform 1s;
-    
-    .tarjeta__imagen__index{
-        max-width: 40%;
-        width: 140px;
-        height: 150px;
-    }
+#logo__footer{
+    border-style: inset;
+    border-color:#C40802;
+    border-width: 5px;
 }
-.tarjeta__index:hover{
-    border-width: 2px;
-    border-color: #000000;
-    background-color: whitesmoke;
-    transform: scale(1.1,1.1);
-    
+#norma{
+    border-style: inset;
+    border-color:#C40802;
+    border-width: 5px;
 }
-
-
-.articulo__2{
-    grid-area: busc;
-    ul{
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-        li{
-        border: solid grey 1px;
-        border-radius: 40px;
-        margin: 20px;
-        font-size: 40px;
-        padding: 10px;
-        transition: box-shadow 1s;
-            a{
-                text-decoration: none;
-                color: #C40802;
-                font-size: 26px;
-            }
-        }
-    }
+footer p{
+    font-size: 12px;
 }
-
-
-.art__li:hover{
-    box-shadow: 5px 5px 25px 0px #000000;
-}
-.articulo__3{
-    grid-area: comb;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-}
-.combo__1{
-    height: 250px;
-    width: 360px;
-    transition: box-shadow 1s;
-    
-}
-.combo__1:hover{
-    box-shadow: 5px 5px 25px 0px #000000;
-}
-}
+/**FOOTER**/
