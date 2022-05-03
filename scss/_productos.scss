@@ -1,0 +1,35 @@
+#productos__titulo{
+    text-align: center;
+    font-size: 48px;
+    background-color: #C40802;  
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+#vacas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h2 p{
+    font-size: $titusize;
+}
+#cerdo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#aves{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#prepa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

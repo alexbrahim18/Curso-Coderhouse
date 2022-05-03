@@ -1,3 +1,45 @@
+.tarjeta {
+  width: 200px;
+  height: 330px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 5px 5px 5px -3px #000000;
+  transition: transform 1s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.tarjeta img {
+  align-self: center;
+  width: 90%;
+  height: 40%;
+}
+
+.tarjeta button {
+  align-self: flex-end;
+  background-color: #C40802;
+  width: 80%;
+  height: 40px;
+  margin: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.tarjeta p {
+  text-align: center;
+}
+
+.tarjeta h3 {
+  text-align: center;
+}
+
 /**MAIN**/
 .main__index #articulos {
   display: grid;
@@ -102,6 +144,46 @@
 
 .combo__1:hover {
   box-shadow: 5px 5px 25px 0px #000000;
+}
+
+#productos__titulo {
+  text-align: center;
+  font-size: 48px;
+  background-color: #C40802;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#vacas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2 p {
+  font-size: 35px;
+}
+
+#cerdo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#aves {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#prepa {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 * {

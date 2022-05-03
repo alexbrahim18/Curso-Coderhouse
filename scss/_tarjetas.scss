@@ -1,0 +1,36 @@
+.tarjeta{
+    width: 200px;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px -3px #000000;
+    transition: transform 1s;
+    &:hover{
+        transform: scale(1.1,1.1);
+    }
+    img{
+    align-self: center;
+    width: 90%;
+    height: 40%;
+    }
+    button{
+        align-self: flex-end;
+        background-color: #C40802;
+        width: 80%;
+        height: 40px;
+        margin: 5px;
+        border: 0;
+        border-radius: 5px;
+    }
+    p{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+}
