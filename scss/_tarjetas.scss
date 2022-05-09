@@ -1,14 +1,17 @@
+@import "_mixins";
+
+
 .tarjeta{
-    width: 200px;
-    height: 330px;
-    background-color: white;
-    border-radius: 10px ;
-    padding: 20px;
-    margin: 25px;
+    width: map-get($tarjeta  , ancho );
+    height: map-get($tarjeta  , alto );
+    background-color: map-get($tarjeta  , fondo );
+    border-radius: map-get($tarjeta  , borde);
+    padding: map-get($tarjeta  , pading );
+    margin: map-get($tarjeta  , margen );
+    box-shadow: map-get($tarjeta  , sombra);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 5px 5px 5px -3px #000000;
     transition: transform 1s;
     &:hover{
         transform: scale(1.1,1.1);
@@ -20,17 +23,15 @@
     }
     button{
         align-self: flex-end;
-        background-color: #C40802;
-        width: 80%;
-        height: 40px;
+        @include  propiedadeprincipal($colorojo2,black,80%,40px);
         margin: 5px;
         border: 0;
         border-radius: 5px;
     }
     p{
-        text-align: center;
+        @include proptext(18px,false,center)
     }
     h3{
-        text-align: center;
+        @include proptext(24px,false,center)
     }
 }

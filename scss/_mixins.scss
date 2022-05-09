@@ -1,0 +1,19 @@
+@mixin propiedadeprincipal ($fondocolor,$colorletra,$ancho,$alto)  {
+    background-color: $fondocolor;
+    color: $colorletra;
+    width: $ancho;
+    height: $alto;
+} 
+  
+
+
+@mixin proptext ($size,$oscuro,$aling){
+    font-size: $size;
+    @if $oscuro == true {
+        color: white;
+    }
+    @else{
+        color: black;
+    }
+    text-align: $aling;
+}

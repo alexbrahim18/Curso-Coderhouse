@@ -10,26 +10,17 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 h2 p{
     font-size: $titusize;
 }
 #cerdo{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    @extend #vacas ;
 }
 #aves{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+   @extend #vacas ;
 }
 #prepa{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    @extend #vacas ;
 }

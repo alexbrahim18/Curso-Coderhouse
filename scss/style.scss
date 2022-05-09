@@ -3,6 +3,7 @@
 @import "_tarjetas";
 @import "_mainindex";
 @import "_productos";
+@import "_mixins";
 
 
 *{
@@ -45,18 +46,13 @@ footer{
     background-color:#FF0902;
     align-items: center;
     justify-content: space-around;
-}
-#logo__footer{
+    p{
+        font-size: 12px;
+    }
+    img{
     border-style: inset;
     border-color:#C40802;
     border-width: 5px;
+    }
 }
-#norma{
-    border-style: inset;
-    border-color:#C40802;
-    border-width: 5px;
-}
-footer p{
-    font-size: 12px;
-}
-/**FOOTER**/
+

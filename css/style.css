@@ -1,14 +1,14 @@
 .tarjeta {
   width: 200px;
   height: 330px;
-  background-color: white;
-  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 0;
   padding: 20px;
   margin: 25px;
+  box-shadow: 5px 5px 5px -3px #000;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  box-shadow: 5px 5px 5px -3px #000000;
   transition: transform 1s;
 }
 
@@ -25,6 +25,7 @@
 .tarjeta button {
   align-self: flex-end;
   background-color: #C40802;
+  color: black;
   width: 80%;
   height: 40px;
   margin: 5px;
@@ -33,10 +34,14 @@
 }
 
 .tarjeta p {
+  font-size: 18px;
+  color: black;
   text-align: center;
 }
 
 .tarjeta h3 {
+  font-size: 24px;
+  color: black;
   text-align: center;
 }
 
@@ -154,36 +159,15 @@
   margin-bottom: 20px;
 }
 
-#vacas {
+#vacas, #cerdo, #aves, #prepa {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 h2 p {
   font-size: 35px;
-}
-
-#cerdo {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#aves {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#prepa {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 * {
@@ -232,21 +216,13 @@ footer {
   justify-content: space-around;
 }
 
-#logo__footer {
-  border-style: inset;
-  border-color: #C40802;
-  border-width: 5px;
-}
-
-#norma {
-  border-style: inset;
-  border-color: #C40802;
-  border-width: 5px;
-}
-
 footer p {
   font-size: 12px;
 }
 
-/**FOOTER**/
+footer img {
+  border-style: inset;
+  border-color: #C40802;
+  border-width: 5px;
+}
 /*# sourceMappingURL=style.css.map */
