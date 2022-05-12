@@ -9,9 +9,6 @@
     .nosotros__texto{
         @include proptext(24px,false,center)
     }
-    .nosotros__img{
-        align-self: center;
-    }
     .nosotros__valores{
         background-color: $colorojo2;
         @include proptext(48px,false,center)
