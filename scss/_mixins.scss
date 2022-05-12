@@ -17,3 +17,11 @@
     }
     text-align: $aling;
 }
+
+@mixin propflex ($display,$direction,$justify,$aling) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    
+}

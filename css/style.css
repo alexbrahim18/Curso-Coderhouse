@@ -170,6 +170,58 @@ h2 p {
   font-size: 35px;
 }
 
+.main__nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__nosotros .nosotros__titulo {
+  background-color: #C40802;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+
+.main__nosotros .nosotros__texto {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.main__nosotros .nosotros__img {
+  align-self: center;
+}
+
+.main__nosotros .nosotros__valores {
+  background-color: #C40802;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+
+.main__nosotros .der {
+  background-color: #FF0902;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.main__nosotros .izq {
+  background-color: #C40802;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.main__nosotros .bottom {
+  padding: 10px;
+  background-color: #FF0902;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0%;

@@ -1,0 +1,33 @@
+.main__nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    .nosotros__titulo{
+        background-color: $colorojo2;
+        @include proptext(48px,false,center)
+    }
+    .nosotros__texto{
+        @include proptext(24px,false,center)
+    }
+    .nosotros__img{
+        align-self: center;
+    }
+    .nosotros__valores{
+        background-color: $colorojo2;
+        @include proptext(48px,false,center)
+    }
+    .der{
+        background-color: $colorojo1;
+        @include proptext(24px,false,center)
+    }  
+    .izq{
+        background-color: $colorojo2;
+        @include proptext(24px,false,center)
+    }
+    .bottom{
+        padding:10px;
+        background-color: $colorojo1;
+        @include proptext(24px,false,center)
+        
+    }
+}
