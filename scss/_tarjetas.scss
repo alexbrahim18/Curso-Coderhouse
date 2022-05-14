@@ -37,3 +37,20 @@
         @include proptext(24px,false,center)
     }
 }
+
+.tarjeta__oferta{
+    @extend .tarjeta;
+    position: relative;
+}
+.oferta__aviso{
+    border-radius: 15px;
+    background-color: #FFD500;
+    width: 80px;
+    text-align: center;
+    position:absolute;
+    top:0 ;
+}
+.tachado{
+    text-decoration: line-through;
+    @include proptext(12,false,center)
+}

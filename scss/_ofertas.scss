@@ -1,0 +1,8 @@
+#ofertas{
+    @include propflex(flex,row,center,center)
+}
+#ofertas__titulo{
+    background-color: $colorojo2;
+    margin: 15px;
+    @include proptext(48px,false,center)
+}

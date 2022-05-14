@@ -1,4 +1,4 @@
-.tarjeta {
+.tarjeta, .tarjeta__oferta {
   width: 220px;
   height: 400px;
   background-color: #fff;
@@ -11,17 +11,17 @@
   transition: transform 1s;
 }
 
-.tarjeta:hover {
+.tarjeta:hover, .tarjeta__oferta:hover {
   border: 2px solid #000;
 }
 
-.tarjeta img {
+.tarjeta img, .tarjeta__oferta img {
   align-self: center;
   width: 100%;
   height: 50%;
 }
 
-.tarjeta button {
+.tarjeta button, .tarjeta__oferta button {
   align-self: flex-end;
   background-color: #C40802;
   color: black;
@@ -32,18 +32,38 @@
   border-radius: 5px;
 }
 
-.tarjeta button:hover {
+.tarjeta button:hover, .tarjeta__oferta button:hover {
   border: 2px outset #474646;
 }
 
-.tarjeta p {
+.tarjeta p, .tarjeta__oferta p {
   font-size: 18px;
   color: black;
   text-align: center;
 }
 
-.tarjeta h3 {
+.tarjeta h3, .tarjeta__oferta h3 {
   font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.tarjeta__oferta {
+  position: relative;
+}
+
+.oferta__aviso {
+  border-radius: 15px;
+  background-color: #FFD500;
+  width: 80px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+
+.tachado {
+  text-decoration: line-through;
+  font-size: 12;
   color: black;
   text-align: center;
 }
@@ -162,7 +182,7 @@
   margin-bottom: 20px;
 }
 
-#vacas, #cerdo, #aves, #prepa {
+#vacas, #cerdo, #aves, #prepa, #ofertas {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -300,6 +320,21 @@ h2 p {
   text-align: center;
   background-color: #C40802;
   margin: 15px;
+}
+
+#ofertas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#ofertas__titulo {
+  background-color: #C40802;
+  margin: 15px;
+  font-size: 48px;
+  color: black;
+  text-align: center;
 }
 
 * {
