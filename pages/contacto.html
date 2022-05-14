@@ -67,55 +67,61 @@
       </div>
    
     
-    <main class="main__contacto">
+    <main>
         
-            <div class="ubicacion">
-                <h2 class="ubicacion__titulo">¿Donde Encontrarnos?</h2>
+        <div class="row">
+            <h2 class="ubicacion__titulo col-12">¿Donde Encontrarnos?</h2>
+        </div>    
+        
+        <article class="ubicacion row">
+                
                 <div class="ubicacion__principal">
-                <p class="ubicacion__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, repudiandae deleniti, nobis velit assumenda aperiam cumque, ab architecto neque repellat labore commodi amet. Qui autem harum, deserunt quo veritatis sit!</p>
-                <figure class="ubicacion__mapa">
-                    <img class="img__mapa" src="../img/mapa.jpg"/>
-                </figure>
+                <p class="ubicacion__texto col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, repudiandae deleniti, nobis velit assumenda aperiam cumque, ab architecto neque repellat labore commodi amet. Qui autem harum, deserunt quo veritatis sit!</p>
+                <iframe class="col-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5034.914674894553!2d-65.22470809715087!3d-26.832880626642233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c6edbbeed13%3A0x4e176919d5ee4c99!2sLa%20Querencia%20Parrilla!5e0!3m2!1ses!2sar!4v1652482315934!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+            
+            <h2 class="contacto__titulo">¿Como Contactarnos?</h2>
+            <div class="contacto">
+            <div class="contacto__principal">
+                    <form class="contacto__formulario">
+                        <label class="formulario__label" for="Nombre y Apellido">Nombre y Apellido</label>
+                        <input class="formulario__input" name="Nombre y Apellido" type="text"/>
+                        <label class="formulario__label" for="Telefono">Telefono</label>        
+                        <input class="formulario__input" name="Telefono" type="number"/>
+                        <label class="formulario__label" for="mail">Email</label>
+                        <input class="formulario__input" name="mail" type="email"/>
+                        <div class="input__radio">
+                            <label class="formulario__label" for="sexo">Hombre</label>
+                            <input class="formulario__input" type="radio" name="sexo" value="hombre"/>
+                            <label class="formulario__label" for="sexo">Mujer</label>
+                            <input class="formulario__input" type="radio" name="sexo" value="mujer"/>
+                        </div>
+                        <label class="formulario__label" for="tyc">¿Acepta recibir correos con nuestras promos?</label>
+                        <input class="formulario__input" type="checkbox" name="tyc" value="si"/>
+                        <label class="formulario__label" for="opiniones">Dejanos tu comentario!</label>
+                        <textarea class="formulario__input" name="opiniones"></textarea>
+                            <div class="botones">
+                            <input class="formulario__boton" type="submit" value="Enviar"/>
+                            <input class="formulario__boton" type="reset" value="Borrar"/>
+                            <input class="formulario__boton" type="button" value="Sin Acciones"/>
+                        </div>
+                    </form>
+            
+            
+                <div class="contacto__redes">
+                    <ul>
+                        <li class="redes__link"><a href="https://www.facebook.com/" target="_blank" class="link__texto"><img src="../img/redesface.png" alt="">Facebook</a></li>
+                        <li class="redes__link"><a href="https://www.instagram.com/?hl=es-la" target="_blank" class="link__texto"><img src="../img/redesinsta.png" alt=""> Instagram</a></li>
+                        <li class="redes__link"><a href="https://wa.me/+543816304495" target="_blank" class="link__texto"><img src="../img/redeswp.png" alt=""> Whatsapp</a></li>
+                    </ul>
                 </div>
             </div>
             
-        <h2 class="contacto__titulo">¿Como Contactarnos?</h2>
-        
-        <div class="contacto__principal">
-                <form class="contacto__formulario">
-                    <label class="formulario__label" for="Nombre y Apellido">Nombre y Apellido</label>
-                    <input class="formulario__input" name="Nombre y Apellido" type="text"/>
-                    <label class="formulario__label" for="Telefono">Telefono</label>        
-                    <input class="formulario__input" name="Telefono" type="number"/>
-                    <label class="formulario__label" for="mail">Email</label>
-                    <input class="formulario__input" name="mail" type="email"/>
-                    <div class="input__radio">
-                        <label class="formulario__label" for="sexo">Hombre</label>
-                        <input class="formulario__input" type="radio" name="sexo" value="hombre"/>
-                        <label class="formulario__label" for="sexo">Mujer</label>
-                        <input class="formulario__input" type="radio" name="sexo" value="mujer"/>
-                    </div>
-                    <label class="formulario__label" for="tyc">¿Acepta recibir correos con nuestras promos?</label>
-                    <input class="formulario__input" type="checkbox" name="tyc" value="si"/>
-                    <label class="formulario__label" for="opiniones">Dejanos tu comentario!</label>
-                    <textarea class="formulario__input" name="opiniones"></textarea>
-                        <div class="botones">
-                        <input class="formulario__boton" type="submit" value="Enviar"/>
-                        <input class="formulario__boton" type="reset" value="Borrar"/>
-                        <input class="formulario__boton" type="button" value="Sin Acciones"/>
-                    </div>
-                </form>
-    
-   
-            <div class="contacto__redes">
-                <ul>
-                    <li class="redes__link"><a href="https://www.facebook.com/" target="_blank" class="link__texto"><img src="../img/redesface.png" alt="">Facebook</a></li>
-                    <li class="redes__link"><a href="https://www.instagram.com/?hl=es-la" target="_blank" class="link__texto"><img src="../img/redesinsta.png" alt=""> Instagram</a></li>
-                    <li class="redes__link"><a href="https://wa.me/+543816304495" target="_blank" class="link__texto"><img src="../img/redeswp.png" alt=""> Whatsapp</a></li>
-                </ul>
-            </div>
-        
         </div>
+        <figure class="row">
+            <img class="col-12" src="../img/tarjetas.jpg" alt="tarjetas">
+        </figure>
     </main>
 
      <!--Pier de Pag--> 

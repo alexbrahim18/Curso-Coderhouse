@@ -1,0 +1,55 @@
+.contacto{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.contacto__titulo{
+    background-color: $colorojo2;
+    @include proptext(48px,false,center);
+    
+}
+.contacto__principal{
+    @include propflex(flex,row,center,center);
+}
+.contacto__formulario{
+    border-style: inset;
+    border-color: $colorojo2;
+    border-width: 5px;
+    color: black;
+    @include propflex(flex,column,center,center);
+    label{
+        @include proptext(24px,false,center);
+    } 
+    margin: 20px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    .button{
+        width: 30%;
+    }
+}
+.input__radio{
+    display: flex;
+    align-items: center;
+}
+.contacto__redes{
+    ul{
+        @include propflex(flex,row,space-around,center);
+    
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+}
+.ubicacion{
+    @include propflex (flex,row,center,center);
+}
+.ubicacion__titulo{
+    @include proptext(48px,false,center);
+    background-color: $colorojo2;
+    margin: 15px;
+}

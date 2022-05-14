@@ -221,6 +221,87 @@ h2 p {
   text-align: center;
 }
 
+.contacto {
+  display: flex;
+  margin-top: 20px;
+}
+
+.contacto__titulo {
+  background-color: #C40802;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+
+.contacto__principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto__formulario {
+  border-style: inset;
+  border-color: #C40802;
+  border-width: 5px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.contacto__formulario label {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones .button {
+  width: 30%;
+}
+
+.input__radio {
+  display: flex;
+  align-items: center;
+}
+
+.contacto__redes ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto__redes ul li {
+  list-style: none;
+}
+
+.contacto__redes ul li a {
+  text-decoration: none;
+}
+
+.ubicacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ubicacion__titulo {
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  background-color: #C40802;
+  margin: 15px;
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0%;
