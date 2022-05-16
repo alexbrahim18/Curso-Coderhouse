@@ -7,14 +7,9 @@
   
 
 
-@mixin proptext ($size,$oscuro,$aling){
+@mixin proptext ($size,$color,$aling){
     font-size: $size;
-    @if $oscuro == true {
-        color: white;
-    }
-    @else{
-        color: black;
-    }
+    color: $color;
     text-align: $aling;
 }
 

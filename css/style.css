@@ -38,18 +38,22 @@
 
 .tarjeta p, .tarjeta__oferta p {
   font-size: 18px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .tarjeta h3, .tarjeta__oferta h3 {
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .tarjeta__oferta {
   position: relative;
+}
+
+.tarjeta__oferta p {
+  line-height: 0.5;
 }
 
 .oferta__aviso {
@@ -64,7 +68,7 @@
 .tachado {
   text-decoration: line-through;
   font-size: 12;
-  color: black;
+  color: #FF0902;
   text-align: center;
 }
 
@@ -202,34 +206,34 @@ h2 p {
 .main__nosotros .nosotros__titulo {
   background-color: #C40802;
   font-size: 48px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .main__nosotros .nosotros__texto {
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .main__nosotros .nosotros__valores {
   background-color: #C40802;
   font-size: 48px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .main__nosotros .der {
   background-color: #FF0902;
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
 .main__nosotros .izq {
   background-color: #C40802;
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
@@ -237,7 +241,7 @@ h2 p {
   padding: 10px;
   background-color: #FF0902;
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
@@ -249,7 +253,7 @@ h2 p {
 .contacto__titulo {
   background-color: #C40802;
   font-size: 48px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
@@ -274,7 +278,7 @@ h2 p {
 
 .contacto__formulario label {
   font-size: 24px;
-  color: black;
+  color: false;
   text-align: center;
 }
 
@@ -316,7 +320,7 @@ h2 p {
 
 .ubicacion__titulo {
   font-size: 48px;
-  color: black;
+  color: false;
   text-align: center;
   background-color: #C40802;
   margin: 15px;
@@ -333,7 +337,7 @@ h2 p {
   background-color: #C40802;
   margin: 15px;
   font-size: 48px;
-  color: black;
+  color: false;
   text-align: center;
 }
 

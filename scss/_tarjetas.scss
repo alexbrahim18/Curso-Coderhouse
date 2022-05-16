@@ -41,6 +41,10 @@
 .tarjeta__oferta{
     @extend .tarjeta;
     position: relative;
+    p{
+        
+        line-height: 0.5;
+    }
 }
 .oferta__aviso{
     border-radius: 15px;
@@ -52,5 +56,5 @@
 }
 .tachado{
     text-decoration: line-through;
-    @include proptext(12,false,center)
+    @include proptext(12,$colorojo1,center)
 }
