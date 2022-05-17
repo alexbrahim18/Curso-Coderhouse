@@ -100,6 +100,12 @@
   align-items: center;
 }
 
+.articulo__1 h2 {
+  font-size: 40px;
+  color: #C40802;
+  text-align: center;
+}
+
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -161,11 +167,23 @@
   box-shadow: 5px 5px 25px 0px #000000;
 }
 
+.articulo__2 h2 {
+  font-size: 35px;
+  color: #C40802;
+  text-align: center;
+}
+
 .articulo__3 {
   grid-area: comb;
   margin: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.articulo__3 h2 {
+  font-size: 30px;
+  color: #C40802;
+  text-align: center;
 }
 
 .combo__1 {
