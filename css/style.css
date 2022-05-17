@@ -282,13 +282,12 @@ h2 p {
   text-align: center;
 }
 
-.botones {
-  display: flex;
-  justify-content: space-around;
-}
-
-.botones .button {
-  width: 30%;
+.formulario__boton {
+  width: 50%;
+  background-color: #C40802;
+  border-radius: 5px;
+  border: 0cm;
+  margin: 5px;
 }
 
 .input__radio {

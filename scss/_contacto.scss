@@ -21,14 +21,17 @@
         @include proptext(24px,false,center);
     } 
     margin: 20px;
+   
 }
-.botones{
-    display: flex;
-    justify-content: space-around;
-    .button{
-        width: 30%;
-    }
+.formulario__boton{
+    width: 50%;
+    background-color: $colorojo2;
+    border-radius: 5px;
+    border: 0cm;
+    margin: 5px;
+    
 }
+
 .input__radio{
     display: flex;
     align-items: center;

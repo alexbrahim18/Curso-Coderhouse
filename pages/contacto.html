@@ -86,34 +86,23 @@
             
             
         <!--Contacto-->
-            <h2 class="contacto__titulo">¿Como Contactarnos?</h2>
-            <div class="contacto">
-            <div class="contacto__principal">
-                    <form class="contacto__formulario">
+            <div class="row">
+              <h2 class="contacto__titulo col-12">¿Como Contactarnos?</h2>
+            </div>
+          
+            <div class="contacto__principal row">
+                    <form class="contacto__formulario col-8">
                         <label class="formulario__label" for="Nombre y Apellido">Nombre y Apellido</label>
                         <input class="formulario__input" name="Nombre y Apellido" type="text"/>
                         <label class="formulario__label" for="Telefono">Telefono</label>        
                         <input class="formulario__input" name="Telefono" type="number"/>
                         <label class="formulario__label" for="mail">Email</label>
                         <input class="formulario__input" name="mail" type="email"/>
-                        <div class="input__radio">
-                            <label class="formulario__label" for="sexo">Hombre</label>
-                            <input class="formulario__input" type="radio" name="sexo" value="hombre"/>
-                            <label class="formulario__label" for="sexo">Mujer</label>
-                            <input class="formulario__input" type="radio" name="sexo" value="mujer"/>
-                        </div>
-                        <label class="formulario__label" for="tyc">¿Acepta recibir correos con nuestras promos?</label>
-                        <input class="formulario__input" type="checkbox" name="tyc" value="si"/>
                         <label class="formulario__label" for="opiniones">Dejanos tu comentario!</label>
                         <textarea class="formulario__input" name="opiniones"></textarea>
-                            <div class="botones">
+                            
                             <input class="formulario__boton" type="submit" value="Enviar"/>
-                            <input class="formulario__boton" type="reset" value="Borrar"/>
-                            <input class="formulario__boton" type="button" value="Sin Acciones"/>
-                        </div>
                     </form>
-            
-
                 <div class="contacto__redes">
                     <ul>
                         <li class="redes__link"><a href="https://www.facebook.com/" target="_blank" class="link__texto"><img src="../img/redesface.png" alt="">Facebook</a></li>
@@ -123,7 +112,6 @@
                 </div>
             </div>
             
-        </div>
         <figure class="row">
             <img class="col-12" src="../img/tarjetas.jpg" alt="tarjetas">
         </figure>
