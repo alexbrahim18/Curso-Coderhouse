@@ -8,6 +8,10 @@
 @import "_contacto";
 @import "_ofertas";
 
+.navbar{
+    background-color: $colorojo2 !important;
+}
+
 *{
     font-family: 'Montserrat', sans-serif;;
     margin: 0%;
@@ -44,18 +48,31 @@ h1{
 /**FOOTER**/
 footer{
     display: flex;
-    flex-direction: row;
-    background-color:#FF0902;
-    align-items: center;
-    justify-content: space-around;
-    p{
-        font-size: 14px;
+    justify-content: space-between;
+    background-color: #DCDCDD;
+    h4{
+        @include proptext (28px,$colorojo2,start)
     }
-    img{
-    border-style: inset;
-    border-color:#C40802;
-    border-width: 5px;
+    ul{
+        li{
+            list-style: none;
+            a{
+             @include proptext (18px,$colorojo2,center)
+            }
+        }
     }
+    
+}
+.footer__novedades{
+    .email{
+        button{
+            border: 0;
+            border-radius: 5px ;
+            padding: 3px;
+            background-color: $colorojo2;
+        }
+    }
+    
 }
 
 
