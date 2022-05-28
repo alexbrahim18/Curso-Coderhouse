@@ -51,13 +51,13 @@ footer{
     justify-content: space-between;
     background-color: #DCDCDD;
     h4{
-        @include proptext (28px,$colorojo2,start)
+        @include proptext (22px,$colorojo2,start)
     }
     ul{
         li{
             list-style: none;
             a{
-             @include proptext (18px,$colorojo2,center)
+             @include proptext (14px,$colorojo2,center)
             }
         }
     }
@@ -70,6 +70,10 @@ footer{
             border-radius: 5px ;
             padding: 3px;
             background-color: $colorojo2;
+            width: 35%;   
+        }
+        input{
+            width: 60%;
         }
     }
     
