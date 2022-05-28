@@ -4,27 +4,50 @@
     align-items: center; 
     .nosotros__titulo{
         background-color: $colorojo2;
-        @include proptext(48px,false,center)
+        @include proptext(48px,#000,center)
     }
     .nosotros__texto{
-        @include proptext(24px,false,center)
+        @include proptext(24px,#000,center)
     }
     .nosotros__valores{
         background-color: $colorojo2;
-        @include proptext(48px,false,center)
+        @include proptext(48px,#000,center)
     }
     .der{
         background-color: $colorojo1;
-        @include proptext(24px,false,center)
+        @include proptext(24px,#000,center)
     }  
     .izq{
         background-color: $colorojo2;
-        @include proptext(24px,false,center)
+        @include proptext(24px,#000,center)
     }
     .bottom{
         padding:10px;
         background-color: $colorojo1;
-        @include proptext(24px,false,center)
+        @include proptext(24px,#000,center)
         
+    }
+    @media (max-width:500px){
+        .nosotros__titulo{
+            @include proptext(35px,#000,center)
+        }
+        .nosotros__texto{
+            @include proptext(18px,#000,center)
+        }
+        .nosotros__valores{
+            @include proptext(35px,#000,center)
+        }
+        .der{
+            @include proptext(18px,#000,center)
+        }  
+        .izq{
+            
+            @include proptext(18px,#000,center)
+        }
+        .bottom{
+            @include proptext(18px,#000,center)
+            
+        }
+
     }
 }

@@ -50,7 +50,7 @@
 
 @media (max-width: 500px) {
   .tarjeta, .tarjeta__oferta {
-    width: 150px;
+    width: 160px;
     height: 400px;
     background-color: #fff;
     border-radius: 0;
@@ -66,6 +66,9 @@
     font-size: 18px;
     color: false;
     text-align: center;
+  }
+  .tarjeta img, .tarjeta__oferta img {
+    height: 40%;
   }
 }
 
@@ -248,34 +251,34 @@ h2 p {
 .main__nosotros .nosotros__titulo {
   background-color: #C40802;
   font-size: 48px;
-  color: false;
+  color: #000;
   text-align: center;
 }
 
 .main__nosotros .nosotros__texto {
   font-size: 24px;
-  color: false;
+  color: #000;
   text-align: center;
 }
 
 .main__nosotros .nosotros__valores {
   background-color: #C40802;
   font-size: 48px;
-  color: false;
+  color: #000;
   text-align: center;
 }
 
 .main__nosotros .der {
   background-color: #FF0902;
   font-size: 24px;
-  color: false;
+  color: #000;
   text-align: center;
 }
 
 .main__nosotros .izq {
   background-color: #C40802;
   font-size: 24px;
-  color: false;
+  color: #000;
   text-align: center;
 }
 
@@ -283,8 +286,41 @@ h2 p {
   padding: 10px;
   background-color: #FF0902;
   font-size: 24px;
-  color: false;
+  color: #000;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .main__nosotros .nosotros__titulo {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
+  .main__nosotros .nosotros__texto {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  .main__nosotros .nosotros__valores {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
+  .main__nosotros .der {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  .main__nosotros .izq {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  .main__nosotros .bottom {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
 }
 
 .contacto {

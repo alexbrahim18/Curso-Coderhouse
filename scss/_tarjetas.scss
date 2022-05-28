@@ -50,6 +50,9 @@
         h3{
             @include proptext(18px,false,center)
         }
+        img{
+            height: 40%;
+        }
     }
 }
 
