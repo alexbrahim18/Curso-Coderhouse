@@ -56,3 +56,15 @@
     background-color: $colorojo2;
     margin: 15px;
 }
+@media (max-width:700px){
+    .ubicacion__titulo{
+        @include proptext(35px,#000,center)
+    }
+    .ubicacion__texto{
+        @include proptext(18px,#000,center)
+    }
+    .contacto__titulo{
+        @include proptext(35px,#000,center)
+
+    }
+}

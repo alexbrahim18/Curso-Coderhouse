@@ -40,8 +40,26 @@ h1{
     border-color: $colorojo2;
     border-width: 5px; 
 }
+.buscador{
+    display:flex ;
+    flex-direction: row-reverse;
+}
 .header__buscador{
     width: 75%;
+    font-size: 24px;
+}
+i{
+    font-size: 35px;
+}
+@media (max-width:700px){
+    i .header__buscador{
+        display: none;
+    }
+    i:hover .header__buscador{
+        display:inline-block;
+    }
+    
+
 }
 }
 /**HEADER**/
@@ -75,7 +93,7 @@ footer{
         input{
             width: 60%;
         }
-        @media (max-width:500px){
+        @media (max-width:700px){
             button{
                 width: 100%;
                 margin: 5px;

@@ -27,7 +27,7 @@
         @include proptext(24px,#000,center)
         
     }
-    @media (max-width:500px){
+    @media (max-width:700px){
         .nosotros__titulo{
             @include proptext(35px,#000,center)
         }

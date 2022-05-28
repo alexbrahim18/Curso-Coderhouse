@@ -48,7 +48,7 @@
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .tarjeta, .tarjeta__oferta {
     width: 160px;
     height: 400px;
@@ -117,7 +117,7 @@
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .main__index #articulos {
     display: flex;
     flex-direction: column;
@@ -290,7 +290,7 @@ h2 p {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .main__nosotros .nosotros__titulo {
     font-size: 35px;
     color: #000;
@@ -403,6 +403,24 @@ h2 p {
   margin: 15px;
 }
 
+@media (max-width: 700px) {
+  .ubicacion__titulo {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
+  .ubicacion__texto {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  .contacto__titulo {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
+}
+
 #ofertas {
   display: flex;
   flex-direction: row;
@@ -454,8 +472,27 @@ header #nav__logo {
   border-width: 5px;
 }
 
+header .buscador {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 header .header__buscador {
   width: 75%;
+  font-size: 24px;
+}
+
+header i {
+  font-size: 35px;
+}
+
+@media (max-width: 700px) {
+  header i .header__buscador {
+    display: none;
+  }
+  header i:hover .header__buscador {
+    display: inline-block;
+  }
 }
 
 /**HEADER**/
@@ -494,7 +531,7 @@ footer ul li a {
   width: 60%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .footer__novedades .email button {
     width: 100%;
     margin: 5px;

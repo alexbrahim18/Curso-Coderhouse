@@ -37,7 +37,7 @@
         @include proptext(24px,false,center)
     }
     
-    @media (max-width:500px){
+    @media (max-width:700px){
         width: map-get($tarjetaresponsive , ancho);
         height: map-get($tarjetaresponsive  , alto );
         background-color: map-get($tarjetaresponsive  , fondo );

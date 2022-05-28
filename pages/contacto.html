@@ -33,9 +33,8 @@
                     <img  src="../img/logo.jpg" alt="logo" class="img-fluid" id="nav__logo" >
                 </div>
                 <h1 class="col-4 col-sm-4 col-md-5 col-lg-5">Puntos de venta</h1>
-                <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                    <input class="header__buscador" name="buscador" type="text" placeholder="Buscar en tienda">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 buscador">
+                    <i class="fa-solid fa-magnifying-glass buscador"><input class="header__buscador" name="buscador" type="text" placeholder="Buscar en tienda"></i>
                   </div>
               </div>
          </header>
@@ -81,7 +80,9 @@
         </div>       
         <article class="ubicacion row">
                 <div class="ubicacion__principal d-flex flex-row my-2">
-                <p class="ubicacion__texto col-6 align-items-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, repudiandae deleniti, nobis velit assumenda aperiam cumque, ab architecto neque repellat labore commodi amet. Qui autem harum, deserunt quo veritatis sit!</p>
+                <p class="ubicacion__texto col-6 align-items-center">Nos encontramos en la Capital Tucumana, contamos con dos sucursales distribuidas por barrio sur, cada una cuanta con un salon de ventas total mente equipado, con re-stock todos los días para ofecerte la mejor calidad y siempre fesco!.
+                  Tambien contamos con una flota de deliverys, para llevar tus alimentos a la puerta de tu casa y solo te preocupes por cocinar!.
+                </p>
                 <iframe class="col-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5034.914674894553!2d-65.22470809715087!3d-26.832880626642233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c6edbbeed13%3A0x4e176919d5ee4c99!2sLa%20Querencia%20Parrilla!5e0!3m2!1ses!2sar!4v1652482315934!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
         </article>
@@ -95,18 +96,19 @@
             <div class="contacto__principal row">
                     <form class="contacto__formulario col-8">
                         <label class="formulario__label" for="Nombre y Apellido">Nombre y Apellido</label>
-                        <input class="formulario__input" name="Nombre y Apellido" type="text"/>
+                        <input class="formulario__input" name="Nombre y Apellido" type="text" placeholder="Alberto Costa"/>
                         <label class="formulario__label" for="Telefono">Telefono</label>        
-                        <input class="formulario__input" name="Telefono" type="number"/>
+                        <input class="formulario__input" name="Telefono" type="number" placeholder="+54 9 3814587724"/>
                         <label class="formulario__label" for="mail">Email</label>
-                        <input class="formulario__input" name="mail" type="email"/>
+                        <input class="formulario__input" name="mail" type="email" placeholder="name@example.com"/>
                         <label class="formulario__label" for="opiniones">Dejanos tu comentario!</label>
                         <textarea class="formulario__input" name="opiniones"></textarea>
                             
                             <input class="formulario__boton" type="submit" value="Enviar"/>
                     </form>
                 <div class="contacto__redes">
-                    <ul>
+                  <h2 class="contacto__titulo col-12">Seguinos en Nuestras Redes</h2>  
+                  <ul>
                         <li class="redes__link"><a href="https://www.facebook.com/" target="_blank" class="link__texto"><img src="../img/redesface.png" alt="">Facebook</a></li>
                         <li class="redes__link"><a href="https://www.instagram.com/?hl=es-la" target="_blank" class="link__texto"><img src="../img/redesinsta.png" alt=""> Instagram</a></li>
                         <li class="redes__link"><a href="https://wa.me/+543816304495" target="_blank" class="link__texto"><img src="../img/redeswp.png" alt=""> Whatsapp</a></li>
@@ -146,7 +148,7 @@
               </div>            
               </div>
               <div class="row justify-content-end">
-                <img src="./img/baner-de-tarjetas_1.png" alt="" class="img-fluid col-sm-4 ">
+                <img src="../img/baner-de-tarjetas_1.png" alt="" class="img-fluid col-sm-4 ">
               </div> 
           </footer>
 
