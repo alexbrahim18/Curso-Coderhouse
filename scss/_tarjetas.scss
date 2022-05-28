@@ -36,6 +36,21 @@
     h3{
         @include proptext(24px,false,center)
     }
+    
+    @media (max-width:500px){
+        width: map-get($tarjetaresponsive , ancho);
+        height: map-get($tarjetaresponsive  , alto );
+        background-color: map-get($tarjetaresponsive  , fondo );
+        border-radius: map-get($tarjetaresponsive  , borde);
+        padding: map-get($tarjetaresponsive  , pading );
+        margin: map-get($tarjetaresponsive  , margen );
+        p{
+            @include proptext(16px,false,center)
+        }
+        h3{
+            @include proptext(18px,false,center)
+        }
+    }
 }
 
 .tarjeta__oferta{

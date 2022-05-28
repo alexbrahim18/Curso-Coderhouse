@@ -75,6 +75,16 @@ footer{
         input{
             width: 60%;
         }
+        @media (max-width:500px){
+            button{
+                width: 100%;
+                margin: 5px;
+            }
+            input{
+                width: 100%;
+                margin: 5px;
+            }
+        }
     }
     
 }
