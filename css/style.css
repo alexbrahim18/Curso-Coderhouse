@@ -480,6 +480,7 @@ header .buscador {
 header .header__buscador {
   width: 75%;
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header i {
@@ -492,6 +493,7 @@ header i {
   }
   header i:hover .header__buscador {
     display: inline-block;
+    width: 100%;
   }
 }
 

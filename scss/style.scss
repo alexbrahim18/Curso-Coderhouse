@@ -47,6 +47,7 @@ h1{
 .header__buscador{
     width: 75%;
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;;
 }
 i{
     font-size: 35px;
@@ -57,6 +58,7 @@ i{
     }
     i:hover .header__buscador{
         display:inline-block;
+        width: 100%;
     }
     
 
