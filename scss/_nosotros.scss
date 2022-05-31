@@ -22,6 +22,7 @@
         @include proptext(24px,#000,center)
     }
     .bottom{
+        border-radius: 10px;
         padding:10px;
         background-color: $colorojo1;
         @include proptext(24px,#000,center)

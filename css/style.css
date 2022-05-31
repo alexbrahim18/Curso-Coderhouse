@@ -72,6 +72,30 @@
   }
 }
 
+@media (max-width: 490px) {
+  .tarjeta, .tarjeta__oferta {
+    width: 150px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 5px;
+    margin: 10px;
+  }
+  .tarjeta p, .tarjeta__oferta p {
+    font-size: 16px;
+    color: false;
+    text-align: center;
+  }
+  .tarjeta h3, .tarjeta__oferta h3 {
+    font-size: 18px;
+    color: false;
+    text-align: center;
+  }
+  .tarjeta img, .tarjeta__oferta img {
+    height: 40%;
+  }
+}
+
 .tarjeta__oferta {
   position: relative;
 }
@@ -283,6 +307,7 @@ h2 p {
 }
 
 .main__nosotros .bottom {
+  border-radius: 10px;
   padding: 10px;
   background-color: #FF0902;
   font-size: 24px;
