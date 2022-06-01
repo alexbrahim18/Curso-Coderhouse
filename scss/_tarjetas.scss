@@ -54,30 +54,12 @@
             height: 40%;
         }
     }
-    @media (max-width:490px){
-        width: map-get($tarjetaresponsive1 , ancho);
-        height: map-get($tarjetaresponsive1  , alto );
-        background-color: map-get($tarjetaresponsive1  , fondo );
-        border-radius: map-get($tarjetaresponsive1  , borde);
-        padding: map-get($tarjetaresponsive1  , pading );
-        margin: map-get($tarjetaresponsive1  , margen );
-        p{
-            @include proptext(16px,false,center)
-        }
-        h3{
-            @include proptext(18px,false,center)
-        }
-        img{
-            height: 40%;
-        }
-    }
 }
 
 .tarjeta__oferta{
     @extend .tarjeta;
     position: relative;
     p{
-        
         line-height: 0.5;
     }
 }
