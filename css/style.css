@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   transition: transform 1s;
+  align-items: center;
 }
 
 .tarjeta:hover, .tarjeta__oferta:hover {
@@ -69,6 +70,34 @@
   }
   .tarjeta img, .tarjeta__oferta img {
     height: 40%;
+  }
+}
+
+@media (max-width: 490px) {
+  .tarjeta, .tarjeta__oferta {
+    width: 135px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 5px;
+    margin: 10px;
+    line-height: .5;
+  }
+  .tarjeta p, .tarjeta__oferta p {
+    font-size: 14px;
+    color: false;
+    text-align: center;
+  }
+  .tarjeta h3, .tarjeta__oferta h3 {
+    font-size: 16px;
+    color: false;
+    text-align: center;
+  }
+  .tarjeta img, .tarjeta__oferta img {
+    height: 35%;
+  }
+  .tarjeta button, .tarjeta__oferta button {
+    font-size: 14px;
   }
 }
 
@@ -495,6 +524,7 @@ header i {
   header i:hover .header__buscador {
     display: inline-block;
     width: 100%;
+    font-size: 14px;
   }
 }
 
