@@ -425,6 +425,16 @@ h2 p {
   align-items: center;
 }
 
+.ubicacion p {
+  padding: 15px;
+  margin: 10px;
+}
+
+.ubicacion iframe {
+  padding: 15px;
+  margin: 5px;
+}
+
 .ubicacion__titulo {
   font-size: 48px;
   color: false;
@@ -440,12 +450,12 @@ h2 p {
     text-align: center;
   }
   .ubicacion__texto {
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
     text-align: center;
   }
   .contacto__titulo {
-    font-size: 35px;
+    font-size: 28px;
     color: #000;
     text-align: center;
   }

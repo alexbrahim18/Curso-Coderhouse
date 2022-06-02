@@ -50,6 +50,14 @@
 }
 .ubicacion{
     @include propflex (flex,row,center,center);
+    p{
+        padding: 15px;
+        margin: 10px;
+    }
+    iframe{
+        padding: 15px;
+        margin:5px;
+    }
 }
 .ubicacion__titulo{
     @include proptext(48px,false,center);
@@ -61,10 +69,10 @@
         @include proptext(35px,#000,center)
     }
     .ubicacion__texto{
-        @include proptext(18px,#000,center)
+        @include proptext(15px,#000,center)
     }
     .contacto__titulo{
-        @include proptext(35px,#000,center)
+        @include proptext(28px,#000,center)
 
     }
 }
