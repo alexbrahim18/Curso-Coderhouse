@@ -1,5 +1,2 @@
-Tercer Entrega Final:
-Agregue Productos, optimizando sus imagenes y modificando su tarjetas.
-Añadi CSS con SASS al resto de pages que no lo tenian, usando extend, mixinsy variables.
-Optimize todo para que sea amigable con responsive.
-Aunque todavia me quedan por pulir algunas (varias) cositas para la entrega final
+Entrega Proyecto final:
+Se trata sobre una pagina para el negocio de mi familia, cuenta con un index con informacion sobre ofertas y links hacia las mismas, una barra de navegacion adaptativa a responsive (toda la pagina esta adaptada para responsive), un footer con navegacion y zona de ayuda al cliente, una galeria con nuestros productos, una pagina con el contacto y la ubicacion, una galeria con mas ofertas y combos, una pagina "Nosotros", ademas cuenta con trabajo basico de SEO y adaptacion responsive.
